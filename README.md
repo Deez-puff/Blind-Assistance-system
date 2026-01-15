@@ -1,15 +1,15 @@
-# 🦯 Blind Assistance System using Arduino
+# Blind Assistance System using Arduino
 
 A simple and cost-effective **Blind Assistance System** built using **Arduino and an ultrasonic sensor** to help visually impaired individuals detect nearby obstacles through real-time audio feedback. This project is designed **without using transistors or IoT**, making it beginner-friendly and easy to implement.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This system detects obstacles in front of the user using an ultrasonic sensor and alerts them using an **active buzzer**. The alert frequency increases as the distance between the user and the obstacle decreases, enabling safer navigation.
 
 ---
 
-## ⚙️ Features
+## Features
 - Real-time obstacle detection  
 - Distance-based audio alerts  
 - Fully offline system  
@@ -18,7 +18,7 @@ This system detects obstacles in front of the user using an ultrasonic sensor an
 
 ---
 
-## 🧠 Working Principle
+## Working Principle
 1. The ultrasonic sensor emits sound waves.
 2. The waves reflect from nearby obstacles.
 3. Arduino calculates the distance using time-of-flight.
@@ -26,7 +26,7 @@ This system detects obstacles in front of the user using an ultrasonic sensor an
 
 ---
 
-## 🧰 Components Used
+## Components Used
 - Arduino UNO / Nano  
 - Ultrasonic Sensor (HC-SR04)  
 - Active Buzzer  
@@ -36,7 +36,7 @@ This system detects obstacles in front of the user using an ultrasonic sensor an
 
 ---
 
-## 🔌 Pin Connections
+## Pin Connections
 
 ### Ultrasonic Sensor (HC-SR04)
 | Sensor Pin | Arduino Pin |
@@ -54,7 +54,7 @@ This system detects obstacles in front of the user using an ultrasonic sensor an
 
 ---
 
-## 📏 Alert Logic
+## Alert Logic
 | Distance from Obstacle | Alert Type |
 |----------------------|-----------|
 | > 120 cm | No alert |
@@ -64,5 +64,3 @@ This system detects obstacles in front of the user using an ultrasonic sensor an
 
 ---
 
-## 🖥️ Arduino Code
-The complete Arduino sketch is available in:
