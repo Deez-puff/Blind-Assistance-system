@@ -1,3 +1,2 @@
 ## Circuit Diagram
-![Circuit Diagram](Circuit_Diagram/blind_assistance_circuit.png)
-
+![Blind Assistance Circuit Diagram](Circuit_Diagram/Circuit_Diagramblind_assistance_circuit.png.png)
