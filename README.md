@@ -62,5 +62,6 @@ This system detects obstacles in front of the user using an ultrasonic sensor an
 | 30 – 60 cm | Medium beep |
 | < 30 cm | Fast beep |
 
+
 ---
 
